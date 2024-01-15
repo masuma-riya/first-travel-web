@@ -1,0 +1,51 @@
+/* for SMALL device */
+/* @media screen and (max-width: 600px) {
+.header-section {
+    flex-direction: column;
+  }
+}  */
+
+/* banner section START */
+@media screen and (max-width: 600px) {
+.banner {
+   object-fit: cover;
+   max-width: 95%;
+}
+.text h5 {
+     font-size: 20px;
+}
+.text p {
+   font-size: 15px;
+   width: 305px;
+}
+.input-banner-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.input-banner {
+    width: 315px;
+}
+.banner {
+    margin-top: 35px;
+}
+input[type="text"] {
+    height: 55px;
+    width: 260px;
+    margin-bottom: 10px;
+    margin-left: 9px;
+}
+button.btn {
+    height: 55px;
+    width: 270px;
+    margin-left: 11px;
+}
+.banner {
+    background-position: center;
+}
+
+
+
+
+    }

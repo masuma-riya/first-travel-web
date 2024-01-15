@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar section START here */
+.header-section { 
+    max-width: 1250px; 
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-container img {
+width: 48px;
+height: 56px;
+flex-shrink: 0;
+}
+
+.nav-container p {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.colour {
+    color: #FF5400;
+}
+
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container .color {
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.items-container a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* banner section START here */
+  section.banner {
+    width: 1700px;
+    height: 500px;
+    max-width: 82%;
+    margin: auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group\ 13\ \(1\)\ \(1\).png);
+
+    background-image: linear-gradient();
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  .banner-text {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .text h5 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 900px;
+  }
+
+  input[type="text"] {
+    height: 30px;
+    width: 110px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0px;
+    outline: 0;
+  }
+
+  button.btn {
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #FF5400;
+    font-size: 15px;
+    border: 0px;
+  }
+
+  button.btn:hover {
+    background: black;
+    transition: 1s;
+  }
