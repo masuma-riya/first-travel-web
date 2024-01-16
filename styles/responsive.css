@@ -182,5 +182,13 @@ video {
 .newsleter {
     gap: 44px;
     flex-direction: column;
+    margin-left: 139px;
+}
+}
+
+/* footer-section */
+@media screen and (max-width: 600px) {
+.copy-right {
+    font-size: 13px;
 }
 }

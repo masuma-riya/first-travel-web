@@ -625,6 +625,7 @@ video {
    font-style: normal;
    font-weight: 800;
    line-height: normal;
+   margin: 0px;
 }
 
 .newsletter-text p {
@@ -634,6 +635,7 @@ video {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin: 0px;
 }
 
 input[type="Name"] {
@@ -646,6 +648,7 @@ input[type="Name"] {
   border: 0px;
   padding-left: 20px;
 }
+
 input[type="password"] {
   margin: 12px 0px;
   height: 31px;
@@ -699,25 +702,25 @@ newsletter-img img {
   border: 2px solid #ff00005e;
   padding: 18px;
 }
-.nl-text {}
-.nl-text p{
+
+.nl-text p {
   color: white;
   text-align: center;
-  font-family: Mulish;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0px;
 }
 
-.nl-text h6{
+.nl-text h6 {
   color: white;
   text-align: center;
-  font-family: Mulish;
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin: 0px;
 }
 
 newsletter-img {
@@ -726,10 +729,72 @@ newsletter-img {
 
 .nl-text {
   position: absolute;
-  bottom: 47px;
-  left: 198px;
+  bottom: 45px;
+  left: 201px;
   background: #FF5400;
   border-radius: 5px;
   padding: 9px;
   transform: rotate(-19.628deg);
+}
+
+/* foooter section START */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.end {
+  max-width: 81%;
+  margin: auto;
+}
+
+.img-footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  line-height: 49px;
+  gap: 20px;
+}
+
+.img-footer h3{
+  font-size: 32px;
+}
+.img-para p {
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 769px;
+}
+
+.img-para {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+  border-bottom: 3px solid #706b6b66;
+  padding-bottom: 10px;
+}
+
+.fa-brands, .fab {
+  font-weight: 400;
+  margin: 11px;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  font-size: 20px;
+  color: #131318;
 }
