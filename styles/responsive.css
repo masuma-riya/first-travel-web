@@ -14,8 +14,23 @@ section.banner {
    max-width: 95%;
    object-fit: cover;
 }
+
+.banner-text {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+}
+
 .text h5 {
-     font-size: 22px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0px;
+    margin-top: 38px;
 }
 .text p {
    font-size: 15px;
@@ -28,7 +43,9 @@ section.banner {
     justify-items: center;
 }
 .input-banner {
-    width: 316px;
+        width: 316px;
+        text-align: center;
+        margin-left: 135px;
 }
 .banner {
     margin-top: 35px;
@@ -64,8 +81,14 @@ button.btn {
     max-width: 100%;
 }
 .popular-tours-img img {    
-    width:550px;
+    width: 600px;
+    margin-left: 223px;
 }
+
+.popular-tours-text {
+    margin-left: 271px;
+}
+
 .popular-tours-text p {
     font-size: 16px;
     margin: 0px;
@@ -97,6 +120,12 @@ button.btn {
 .destination-imags {
     flex-direction: column;
 }
+
+.destination-images {   
+    flex-direction: column;
+    width: 700px;  
+}
+
 
 .destination-imgs {
     display: grid;
