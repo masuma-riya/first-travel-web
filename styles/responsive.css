@@ -98,7 +98,7 @@ button.btn {
     flex-direction: column;
 }
 
-.destination-imags {
+.destination-imgs {
     display: grid;
     grid-template-columns: (repeat 1, 1fr);
 }
