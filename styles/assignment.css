@@ -496,3 +496,118 @@ i.fa-solid.fa-magnifying-glass {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
+/* A Simple Perfect Place START */
+.simple-perfect-place {
+  max-width: 81%;
+  margin: auto;
+  margin-top: 0px;
+  background: #FFF;
+  width: 50%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.simple-place {
+  display: flex;
+}
+
+.simple-plac h5 {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.simple-plac p {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400; 
+}
+
+.simple-plac li {
+  color: #131318;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btnn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+}
+
+/* A Simple Perfect Place section START */
+.simple-place {
+  max-width: 81%;
+  margin: auto;
+}
+
+.perfect-place {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 70px;
+}
+
+.perfect-place-text h3 {
+  color: #131318;
+  width: 448px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.perfect-place-text p {
+  color: #5A5A5D;
+  width: 532px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 10px 0px;
+}
+
+.perfect-place-text li {
+   color: #131318;
+   width: 518px;
+   font-family: Mulish;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 26px;
+   margin: 10px 0px;
+   text-align: center;
+}
+
+button.btnn {
+  height: 34px;
+  width: 119px;
+  background: #FF5400;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+button.btnn:hover{
+  background:black ;
+  transition: 1s;
+  cursor: pointer;
+}
+video {
+  padding-left: 35px;
+  height: 300px;
+  width: 550px;
+  text-align: center;
+}
+
+.perfect-place-video {
+  display: flex;
+  align-items: center;
+}
