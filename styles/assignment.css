@@ -3,11 +3,10 @@
   padding: 0;
   overflow-x:hidden ;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&display=swap');
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
-
+i.fa-solid.fa-bars {
+  margin-left: 174px;
+  display: none;
+}
 body {
     font-family: 'Mulish', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +18,9 @@ body {
     margin: 0 auto;
     display: flex;
 }
-
+.nav-icon {
+  font-size: 24px;
+}
 .nav-container {
     min-height: 20px;
     display: flex;
@@ -190,7 +191,7 @@ i.fa-solid.fa-magnifying-glass {
   margin: 0px;
   margin-bottom: 20px;
 }
-.popular-tours-text p, ul li {
+.popular-tours-text p, li {
   color: rgba(19, 19, 24, 0.70); 
   font-size: 16px; 
   font-style: normal; 
@@ -202,7 +203,7 @@ i.fa-solid.fa-magnifying-glass {
 .popular-tours-text p {
   margin-bottom: 20px;
 }
-.popular-tours-text ul li { 
+.popular-tours-text li { 
   width: 525px; 
   margin-bottom: 10px;
 }
