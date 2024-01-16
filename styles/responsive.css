@@ -111,19 +111,19 @@ button.btn {
 }
 
 .destination-third-img {
-    width: 175%;
+    width: 165%;
     background-position: center;
     background-size: cover;
 }
 
 .destination-fourth-img {
-    width: 175%;
+    width: 165%;
     background-position: center;
     background-size: cover;
 }
 
 .destination-fivth-img {
-    width: 175%;
+    width: 165%;
     background-position: center;
     background-size: cover;
 }
@@ -174,5 +174,13 @@ video {
 .perfect-place-text li {
     width: 431px;
     font-size: 14px;
+}
+}
+
+/* Newsletter section START here */
+@media screen and (max-width: 600px) {
+.newsleter {
+    gap: 44px;
+    flex-direction: column;
 }
 }
