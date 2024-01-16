@@ -111,19 +111,19 @@ button.btn {
 }
 
 .destination-third-img {
-    width: 100%;
+    width: 175%;
     background-position: center;
     background-size: cover;
 }
 
 .destination-fourth-img {
-    width: 100%;
+    width: 175%;
     background-position: center;
     background-size: cover;
 }
 
 .destination-fivth-img {
-    width: 100%;
+    width: 175%;
     background-position: center;
     background-size: cover;
 }
@@ -148,4 +148,13 @@ button.btn {
     font-size: 14px;
     width: 309px;
 }
+}
+
+/* Why Choose Us section START */
+@media screen and (max-width: 600px) {
+
+
+
+
+
 }
