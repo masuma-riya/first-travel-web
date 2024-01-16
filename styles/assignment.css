@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&display=swap');
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
 body {
     font-family: 'Mulish', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -85,6 +87,7 @@ flex-shrink: 0;
     justify-items: center;
     text-align: center;
     margin-top: 100px;
+    display: flex;
   }
 
   .text h5 {
@@ -93,6 +96,8 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin: 0px;
+    margin-top: 125px;
   }
   
   .text p {
@@ -101,8 +106,8 @@ flex-shrink: 0;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
-    width: 900px;
+    line-height: 26px;
+    width: 676px;
   }
 
   input[type="text"] {
@@ -112,7 +117,30 @@ flex-shrink: 0;
     border-radius: 5px;
     border: 0px;
     outline: 0;
+  } 
+
+  select {
+    margin: 0px 8px;
+    height: 30px;
+    width: 110px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-left: 9px;
+    border: 0px;
+    outline: 0;
   }
+
+  .input-banner {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.input-banner-items {
+  background: #fff5f5ab;
+  padding: 15px;
+  border-radius: 5px;
+}
 
   button.btn {
     height: 30px;
@@ -128,3 +156,208 @@ flex-shrink: 0;
     background: black;
     transition: 1s;
   }
+
+/* Our Popular Tours Section START here */
+.popular-tours-section {
+  display: flex; 
+  gap: 50px;
+  max-width: 81%;
+  margin: auto;
+  justify-content: center;
+}
+.popular-tours-text {
+  
+}
+.popular-tours-text h5 {
+  color: #131318;  
+  font-size: 40px; 
+  font-style: normal; 
+  font-weight: 800; 
+  line-height: normal; 
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.popular-tours-text p, ul li {
+  color: rgba(19, 19, 24, 0.70); 
+  font-size: 16px; 
+  font-style: normal; 
+  font-weight: 400; 
+  line-height: 26px; 
+  width: 577px;
+   
+}
+.popular-tours-text p {
+  margin-bottom: 20px;
+}
+.popular-tours-text ul li { 
+  width: 525px; 
+  margin-bottom: 10px;
+}
+.popular-tours-img img { 
+  width: 460px; 
+  height: 514px; 
+  border-radius: 5px;
+}
+.buton {
+  color: white; 
+  font-size: 20px; 
+  font-weight: 800; 
+  line-height: normal;
+  background: #FF5400;
+  border-radius: 8px;
+  width: 174px;
+  height: 52px; 
+  outline: 0px; 
+  border: 0px; 
+  margin-top: 35px;
+}
+
+.buton:hover {
+  background: black; 
+  transition: 1s; 
+  cursor: pointer; 
+  border: 2px solid red;
+}
+
+/* destination-section-START-here */
+.destination {
+  max-width: 81%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.destination-text-h h5 {
+  text-align: center;
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.destination-text-p {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.destination-text-p p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 643px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.destination-images {
+  display: flex;
+  gap: 7px;
+  margin-top: 40px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.destination-first-img {
+  background-image: url(../images/Rectangle\ 5.png);
+  border-radius: 14px;
+  width: 573px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.destination-second-img {
+  background-image: url(../images/Rectangle\ 8.png);
+  border-radius: 14px;
+  width: 573px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.destinition-imgs {
+  display: flex;
+  margin-top: 7px;
+  gap: 7px;
+  justify-content: center;
+    justify-items: center;
+}
+
+.destination-third-img {
+  width: 362px;
+  height: 286px;
+  background-image: url(../images/Rectangle\ 6.png);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.destination-fourth-img {
+  width: 465px;
+  height: 286px;
+  background-image: url(../images/Rectangle\ 7.png);
+  border-radius: 13px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.destination-fivth-img {
+  width: 280px;
+  height: 286px;
+  background-image: url(../images/Rectangle\ 9.png);
+  border-radius: 13px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.destination-img {
+  display: flex;
+  margin-top: 7px;
+  gap: 7px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.destination-sixth-img {
+  width: 473px;
+  height: 300px;
+  background-image: url(../images/Rectangle\ 11.png);
+  border-radius: 13px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.destination-seventh-img {
+    width: 673px;
+    height: 300px;
+    background-image: url(../images/Rectangle\ 10.png);
+    border-radius: 13px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

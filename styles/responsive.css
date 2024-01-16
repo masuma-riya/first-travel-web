@@ -1,18 +1,21 @@
 /* for SMALL device */
+/* navbar section start here */
 /* @media screen and (max-width: 600px) {
 .header-section {
     flex-direction: column;
   }
 }  */
 
-/* banner section START */
+/* banner section START here */
 @media screen and (max-width: 600px) {
-.banner {
+
+section.banner {
    object-fit: cover;
    max-width: 95%;
+   object-fit: cover;
 }
 .text h5 {
-     font-size: 20px;
+     font-size: 22px;
 }
 .text p {
    font-size: 15px;
@@ -25,27 +28,119 @@
     justify-items: center;
 }
 .input-banner {
-    width: 315px;
+    width: 316px;
 }
 .banner {
     margin-top: 35px;
 }
 input[type="text"] {
-    height: 55px;
-    width: 260px;
-    margin-bottom: 10px;
-    margin-left: 9px;
+    height: 57px;
+    width: 280px;
+    margin-bottom: 9px;
+    margin-left: 8px;
+}
+select {
+height: 57px;
+width: 290px;
+margin-bottom: 10px;
 }
 button.btn {
-    height: 55px;
-    width: 270px;
-    margin-left: 11px;
+    height: 57px;
+    width: 290px;
+    margin-left: 10px;
 }
 .banner {
     background-position: center;
 }
+}
 
+/* Our Popular Section START here */
+@media screen and (max-width: 600px) {
+.popular-tours-section {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.popular-tours-img img {    
+    width:550px;
+}
+.popular-tours-text p {
+    font-size: 16px;
+    margin: 0px;
+    overflow-y: hidden;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.popular-tours-text ul li {
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.popular-tours-text h5 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.buton {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+}
 
+/* Destination section START heere */
+@media screen and (max-width: 600px) {
+.destination-images,
+.destination-img, 
+.destination-imags {
+    flex-direction: column;
+}
 
+.destination-first-img, 
+.destination-second-img {
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+}
 
-    }
+.destination-third-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-fourth-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-fivth-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-sixth-img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-seventh-img { 
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.destination-text-h h5 {
+    font-size: 20px;
+}
+
+.destination-text-h p {
+    font-size: 14px;
+    width: 309px;
+}
+}
