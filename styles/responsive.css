@@ -188,7 +188,10 @@ button.btn {
 
 /* Why Choose Us section START */
 @media screen and (max-width: 600px) {
-
+    .choose-part {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 

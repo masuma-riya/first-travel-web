@@ -1,8 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-  overflow-x:hidden ;
+  overflow-x:hidden;
 }
+
 i.fa-solid.fa-bars {
   margin-left: 174px;
   display: none;
@@ -421,7 +422,8 @@ i.fa-solid.fa-magnifying-glass {
 }
 
 .choose-part {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
@@ -559,6 +561,7 @@ i.fa-solid.fa-magnifying-glass {
     justify-content: center;
     justify-items: center;
     gap: 70px;
+    margin-top: 70px;
 }
 
 .perfect-place-text h3 {
@@ -744,12 +747,17 @@ newsletter-img {
   transform: rotate(-19.628deg);
 }
 
-/* foooter section START */
+/* foooter section START here */
 footer {
   background: rgba(19, 19, 24, 0.05);
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 50px;
+}
+
+section.footer-section {
+  max-width: 81%;
+  margin: auto;
 }
 
 .end {
