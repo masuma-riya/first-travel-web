@@ -145,8 +145,8 @@ flex-shrink: 0;
 }
 
 .input-banner-items {
+  padding-bottom: 10px;
   background: #fff5f5ab;
-  padding: 15px;
   border-radius: 5px;
 }
 
@@ -384,6 +384,22 @@ i.fa-solid.fa-magnifying-glass {
   margin-top: 0px;
 }
 
+.another-part {
+  display: flex;
+  justify-content: center;
+}
+
+.milestone {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.part-choose {
+  display: flex;
+  justify-content: center;
+}
+
 .section-heading {
   color: #131318;
   text-align: center;
@@ -433,6 +449,7 @@ i.fa-solid.fa-magnifying-glass {
   background: rgba(251, 181, 99, 0.05);
   padding-left: 20px;
   border-radius: 5px;
+  padding-top: 20px;
   border: 1px solid rgba(251, 181, 99, 0.20);
 }
 
@@ -447,6 +464,7 @@ i.fa-solid.fa-magnifying-glass {
 .choose-part-two {
   background: rgba(41, 206, 246, 0.05);
   padding-left: 20px;
+  padding-top: 20px;
   border-radius: 5px;
   border: 1px solid rgba(41, 206, 246, 0.20);
 }
@@ -506,7 +524,7 @@ i.fa-solid.fa-magnifying-glass {
   margin-bottom: 30px;
 }
 
-/* A Simple Perfect Place START */
+/* A Simple Perfect Place section START */
 .simple-perfect-place {
   max-width: 81%;
   margin: auto;
@@ -521,21 +539,21 @@ i.fa-solid.fa-magnifying-glass {
   display: flex;
 }
 
-.simple-plac h5 {
+.perfect-place-text h5 {
   color: #131318;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
 }
 
-.simple-plac p {
+.perfect-place-text p {
   color: #5A5A5D;
   font-size: 16px;
   font-style: normal;
   font-weight: 400; 
 }
 
-.simple-plac li {
+.perfect-place-text li {
   color: #131318;
   font-size: 16px;
   font-style: normal;

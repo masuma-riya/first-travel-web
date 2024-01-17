@@ -47,7 +47,6 @@ section.banner {
    width: 305px;
 }
 .input-banner-items {
-    border: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +140,6 @@ button.btn {
 
 .destination-first-img, 
 .destination-second-img {
-   width: 100%;
    background-position: center;
    background-size: cover;
 }
